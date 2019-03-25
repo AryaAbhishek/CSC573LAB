@@ -194,10 +194,10 @@ echo -e "\n\n******Environment setup completed! ****\n"
 echo -e "\n\n******Creating Topology ****\n"
 
 sudo ansible-playbook /home/$(whoami)/CSC573LAB/Topology_script.yml &> /dev/null
-echo -e "\n\n******Find the below connections at connection.txt file ****\n"
-cat connection.txt
+#echo -e "\n\n******Find the below connections at connection.txt file ****\n"
+#cat connection.txt
 
-sed -i -e 's/\r$//' background.sh
+#sed -i -e 's/\r$//' background.sh
 
 #chmod u+x background.sh
 
