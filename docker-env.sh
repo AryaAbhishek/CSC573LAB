@@ -199,8 +199,8 @@ cat connection.txt
 
 sed -i -e 's/\r$//' background.sh
 
-chmod u+x background.sh
+#chmod u+x background.sh
 
-./background.sh &
+#./background.sh &
 
 echo "Total setup completed..."
